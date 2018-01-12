@@ -1,0 +1,12 @@
+<!-- 木鱼页面的UI-->
+
+<swiper duration="1000" bindchange="bindchange" autoplay= "{{autoplay}}" interval="{{interval}}"  current='{{current}}' style="height: {{clientHeight}}" circular= "true">
+  <block wx:for="{{imgUrls}}" wx:key="">
+    <swiper-item>
+      <view class="parent-view">
+        <text catchtap="onNextTap">{{title}}</text>
+        <image class="image-view" src="{{img_woodenfish}}" mode='widthFix'></image>
+      </view>
+    </swiper-item>
+  </block>
+</swiper>

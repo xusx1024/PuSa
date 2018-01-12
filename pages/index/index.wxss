@@ -1,0 +1,36 @@
+/**index.wxss**/
+
+.counter_txt {
+  font-size: 80rpx;
+  margin-top: 120rpx;
+  margin-bottom: 60rpx;
+  color: gold;
+}
+
+.parent-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  width: 100%;
+  height: 100%;
+}
+
+.body-view {
+  align-content: center;
+}
+
+.image-view {
+  align-content: center;
+  padding-top: 36rpx;
+}
+
+.audio-view {
+  align-content: center;
+  padding-top: 36rpx;
+}
+ 
+
+.swiper-box view {
+  text-align: center;
+}
